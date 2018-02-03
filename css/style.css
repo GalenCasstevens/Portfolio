@@ -64,7 +64,6 @@ header .current a{
   font-weight: bold;
 }
 
-/* Portrait / Biography */
 #showcase{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -73,7 +72,7 @@ header .current a{
   color: #a64dff;
 }
 
-#showcase img{
+#showcase .portrait{
   border:1px solid black;
   border-radius: 50%;
   -webkit-border-radius: 500px;
@@ -94,4 +93,44 @@ header .current a{
 
 #showcase .biography p{
   font-size: 18px;
+}
+
+#showcase .skills table{
+  text-align: center;
+  margin:auto;
+  border-collapse: collapse;
+}
+
+#showcase .skills td{
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#showcase .skills img{
+  height:150px;
+  width:150px;
+}
+
+#showcase .row1text td, #showcase .row2text td{
+  padding-bottom: 10px;
+}
+
+#showcase .row1images td{
+  padding-bottom: 30px;
+}
+
+#showcase .works p{
+  text-align: left;
+  font-size: 22px;
+}
+
+#showcase .works img{
+  width: 500px;
+  height: auto;
+}
+
+#showcase .contact{
+  font-size: 22px;
 }
