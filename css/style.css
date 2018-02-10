@@ -121,9 +121,12 @@ header .current a{
   padding-bottom: 30px;
 }
 
-#showcase .works p{
+#showcase .works a{
   text-align: left;
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff99ff;
 }
 
 #showcase .works img{
